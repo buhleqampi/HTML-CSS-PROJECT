@@ -1,0 +1,137 @@
+* {
+    box-sizing: border-box;
+    margin:0;
+}
+body{
+    background-color: white;
+}
+.logo {
+    width:50px;
+    height:50px;
+    justify-self: start;
+}
+.container{
+    background-color: wheat;
+}
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 80%;
+    margin: auto;
+}
+.navbar ul {
+    display: flex;
+}
+.container .navbar {
+    justify-content: space-between;
+}
+.navbar ul li {
+    list-style-type: none;
+  }
+  
+.container .navbar ul li {
+    padding: 10px;
+    margin: 0 10px;
+}
+  
+ul li {
+    font-weight: bold;
+}
+  
+ul li:hover {
+    color:white;
+}
+
+h1{
+    font-size:3rem;
+}
+/* h1:hover{
+    color:gray;
+} */
+.floating {  
+    animation-name: floating;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    margin-left: 30px;
+    margin-top: 5px;
+}
+ 
+@keyframes floating {
+    0% { transform: translate(0,  0px); }
+    50%  { transform: translate(0, 15px); }
+    100%   { transform: translate(0, -0px); }    
+}
+.fluid {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 80%;
+    margin: auto;
+}
+.box .fluid {
+    justify-content: space-between;
+}
+.iphone{
+    width:20rem;
+    height:10rem;
+}
+.box{
+    padding:25px;
+    margin:5px;
+}
+p{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: normal;
+}
+.button-container {
+    text-align: center;
+    align-items: center;
+    margin-left: 5px;
+    padding:10px;
+    /* display: flex;
+    flex-direction: row; */
+}
+
+.button1, .button2 {
+    padding: 10px 20px;
+    margin: 0 10px;
+    border: none;
+    background-color: gray;
+    color: #fff;
+    cursor: pointer;
+}
+
+.button1:hover, .button2:hover {
+    background-color: black;
+}
+.row{
+    background-color: wheat;
+}
+
+.grid-container {
+    background-color: wheat;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    padding:50px;
+}
+
+.grid-item {
+    padding: 30px;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+}
+
+.text {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.grid-item:hover{
+    background-color: gray;
+}
+.text:hover{
+    color:antiquewhite;
+}
