@@ -10,8 +10,8 @@ const addKiwi = fruits.unshift("kiwi")
 
 // console.log(removeMango)
 // console.log(removeApple)
-console.log(removeOrange)
+// console.log(removeOrange)
 //  console.log(addLemon)
 // console.log(addKiwi)
-console.log(fruits)
+// console.log(fruits)
 
