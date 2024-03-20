@@ -1,3 +1,4 @@
+// 19 March -Conditional Statements & Arrays, Objects
 // const gradeCate = [
 //     {category:"A",interval:"80-100" },
 //     {category:"B",interval:"60-79"},
@@ -25,6 +26,7 @@
 
 // console.log("Your grade is",student1.gradeCate);
 
+// 20 March - Loops
 // for loop
 // for(j=0;j<=10 ;j++) {
 // for(i=0; i<10; i++){
@@ -50,15 +52,16 @@
 //     console.log(i)
 // }
 // class activity
-const Arr4 = [26,1,2,3,4,5,6,7,8,9,10,11,12,40]
+// const Arr4 = [26,1,2,3,4,5,6,7,8,9,10,11,12,40]
 
-for (i=0; i < Arr4.length;i++){
-    console.log(Arr4[i] * 2)
-}
+// for (i=0; i < Arr4.length;i++){
+//     console.log(Arr4[i] * 2)
+// }
 // The solution
-const myArr = []
-myArr.push(Arr4[i]*2)
-console.log(myArr[i])
+// const myArr = []
+// myArr.push(Arr4[i]*2)
+// console.log(myArr[i])
+
 
 // const Arr6 = [1,2,3,4,5,6,7,8,9,10,11,12]
 
@@ -69,3 +72,42 @@ console.log(myArr[i])
 // for(i=2; i<Arr5.length,i++;){
 //     console.log(i)
 // }
+
+// Functions
+// function noneVoid(age){
+//     const result =age + 1;
+//     return result
+// }
+
+// function fvoid(age){
+//     let result= age + 1;
+// }
+// console.log(noneVoid(5))
+// console.log(fvoid(5))
+
+// function strReverse(str) { 
+//     let reversed = ""
+//     for (let i = str.length - 1; i >= 0; i--) { 
+//         reversed += str[i]; 
+//     } 
+//    return reversed
+// }  
+
+// console.log (strReverse("Buhle"))
+
+for (let i = 1; i <= 100 ; i++){
+    let row = "";
+    for( let j = 1; j <= i; j++){
+        row += "*";
+    }
+    console.log(row)
+}
+
+for (let i = 100; i >= 1; i--) {
+    let row1 = "";
+    for (let j = 1; j <= i; j++) {
+        row1 += "*";
+    }
+    console.log(row1);
+}
+
