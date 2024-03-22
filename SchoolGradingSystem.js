@@ -56,6 +56,14 @@ const Arr4 = [26,1,2,3,4,5,6,7,8,9,10,11,12]
 // console.log(myArr1)
 
 // Functions
+function doubler (Arr,n){
+    let copyArr = []
+    for (i=0; i<Arr.length;i++){
+        copyArr[i] = Arr[i]*n
+    }
+    return copyArr
+    console.log(doubler(Arr,2))
+}
 function noneVoid(age){
     const result =age + 1;
     return result
